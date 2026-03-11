@@ -457,8 +457,8 @@ class AS7343:
         if chip_id != _AS7343_CHIP_ID:
             raise RuntimeError(
                 f"Failed to find AS7343 — check wiring! "
-                f"Expected chip ID 0x{_AS7343_CHIP_ID:02X}, "
-                f"got 0x{chip_id:02X}."
+                + f"Expected chip ID 0x{_AS7343_CHIP_ID:02X}, "
+                + f"got 0x{chip_id:02X}."
             )
 
         # Software reset to clear any stale state
