@@ -73,7 +73,7 @@ try:
     low_digital = sensor.digital_saturated
 
     print(f"  F4 reading:        {low_reading}")
-    print(f"  Analog saturated:  {'YES' if low_analog  else 'NO'}")
+    print(f"  Analog saturated:  {'YES' if low_analog else 'NO'}")
     print(f"  Digital saturated: {'YES' if low_digital else 'NO'}")
 
     if low_analog or low_digital:
@@ -106,7 +106,7 @@ try:
     high_digital = sensor.digital_saturated
 
     print(f"  F4 reading:        {high_reading}")
-    print(f"  Analog saturated:  {'YES' if high_analog  else 'NO'}")
+    print(f"  Analog saturated:  {'YES' if high_analog else 'NO'}")
     print(f"  Digital saturated: {'YES' if high_digital else 'NO'}")
 
     if high_reading == 65535:

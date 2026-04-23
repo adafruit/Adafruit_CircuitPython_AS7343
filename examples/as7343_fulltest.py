@@ -107,7 +107,7 @@ print("LED: Off (use sensor.led_enabled = True to turn on)")
 
 #  Continuous spectral readings
 print("\n--- Spectral Readings ---")
-print("Channel wavelengths: F1=405nm, F2=425nm, FZ=450nm, " "F3=475nm, F4=515nm, F5=550nm,")
+print("Channel wavelengths: F1=405nm, F2=425nm, FZ=450nm, F3=475nm, F4=515nm, F5=550nm,")
 print("FY=555nm, FXL=600nm, F6=640nm, F7=690nm, F8=745nm, NIR=855nm\n")
 
 time.sleep(0.2)  # Let sensor stabilise

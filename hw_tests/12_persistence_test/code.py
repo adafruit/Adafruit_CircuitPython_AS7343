@@ -240,7 +240,7 @@ if not order_pass:
 
 print()
 print(f"Register readback: {'PASS' if readback_passed else 'FAIL'}")
-print(f"Timing test:       {'PASS' if timing_passed   else 'FAIL'}")
+print(f"Timing test:       {'PASS' if timing_passed else 'FAIL'}")
 print(f"RESULT: {'PASS' if readback_passed and timing_passed else 'FAIL'}")
 
 print("~~END~~")

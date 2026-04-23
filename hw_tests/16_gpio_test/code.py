@@ -184,9 +184,9 @@ fb.deinit()
 
 print()
 print("Summary:")
-print(f"  Output mode: {'PASS' if pass_high and pass_low         else 'FAIL'}")
+print(f"  Output mode: {'PASS' if pass_high and pass_low else 'FAIL'}")
 print(f"  Inversion:   {'PASS' if pass_inv_high and pass_inv_low else 'FAIL'}")
-print(f"  Input mode:  {'PASS' if pass_in_high and pass_in_low   else 'FAIL'}")
+print(f"  Input mode:  {'PASS' if pass_in_high and pass_in_low else 'FAIL'}")
 print()
 print(f"RESULT: {'PASS' if all_passed else 'FAIL'}")
 

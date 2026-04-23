@@ -225,7 +225,7 @@ sensor.spectral_measurement_enabled = False
 
 print()
 print(f"Register readback: {'PASS' if all_readbacks_ok else 'FAIL'}")
-print(f"Timing test:       {'PASS' if timing_test_ok   else 'FAIL'}")
+print(f"Timing test:       {'PASS' if timing_test_ok else 'FAIL'}")
 print(f"RESULT: {'PASS' if all_readbacks_ok and timing_test_ok else 'FAIL'}")
 
 print("~~END~~")

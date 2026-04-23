@@ -321,7 +321,7 @@ pixels.show()
 
 print("Summary:")
 print(f"  Status register (AINT): {'PASS' if status_test_pass else 'FAIL'}")
-print(f"  INT pin (board.D8):     {'PASS' if int_pin_pass     else 'FAIL'}")
+print(f"  INT pin (board.D8):     {'PASS' if int_pin_pass else 'FAIL'}")
 print()
 print(f"RESULT: {'PASS' if status_test_pass and int_pin_pass else 'FAIL'}")
 
